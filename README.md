@@ -29,9 +29,12 @@ if you want to run in a different port use this command
 $ PORT={YOUR PORT} node index
 ```
 
-
+### Run the tests
 
 Once the server is running you can open a new terminal window and run the test.
+```shell
+$ npm run test
+```
 After the test run you should see a window like this one (Top: is the tests results, Bottom: is the server running)
 
 ![alt](https://lh3.googleusercontent.com/JEHsyqTc-0bQ4rgJiPgBbC_BLDu6Cx1-BfsmBgIKqVRNQSDsq6pOB_2mroOKrE-kh0s75Z61RkoREIxjOt7PaRePUkWMINttMZQVwbN6wGQEZ6WuIIlQl6FoO7VFzwb_H2G5M3SAbGHXMqpykPfbfXoIoIKVWnlSza6THMcxwzQqNVKC7gA-zOsV4ISHveYSVwYEq1YP0JdQpme7wETdug1nuhRPrFkAfvYcwqMGF9nwJNy37im0LNDaIKIJR-azS_yEexWcKKzy7vM4wsZx1AQLBXD6o38h-uhdC6FUlA0LEr8F-BQB2TT1RtwF-hsoJ4w5N29iIFObPft5xb95gsut5J0G_FdeaeTNRNToNo5nwq7YW2a0k6RWOGR88ZhFzBb9jbHrcB1mkvCZBsPYT1rvcrPWvSHZezDjDlyOF4rpOgYxUtbD2gzpCyEU-Hy1igCLXeyNg50mJ1IxCcWPGbpWsoYihaUi_D7JDRXBrLFWrqkZo5NxCuT_vSc1SzxyLFvBYCeF1axmouGgTIwnLEp4BaavKtl7oCsHsDmGxEnT_l4TUJ_QXY6LpsQWuOTUgKQxg21UKYzaCuEeoh4xprlItwuZ5IOCVgAYsvB2iQ5SQHXc5ol0PHvIL0CQj7oXzP7NOcd6rMZhMaGmhXtzo41ANl5qWC3sFg=w1688-h1336-no)
