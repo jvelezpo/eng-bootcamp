@@ -42,7 +42,7 @@ After the test run you should see a window like this one (Top: is the tests resu
 ## License
 ### The MIT License
 
-Copyright (c) 2017 Juan Sebastian Velez
+Copyright (c) 2018 Juan Sebastian Velez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

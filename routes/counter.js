@@ -17,16 +17,14 @@ const getRoot = (req, res) => {
  */
 const getCount = (req, res) => {
   let input = req.query.input
-  const response = {}
+  let response = {}
   if (input) {
     input = normalizeChars.normalizeChars(input)
-    for (let i = 0; i < input.length; i++) {
-      if (!response[input[i]]) {
-        response[input[i]] = 1
-      } else {
-        response[input[i]] += 1
-      }
-    }
+
+    response = input.split('').reduce((last, now) => {
+      last[now] ? last[now] ++ : last[now] = 1;
+      return last;
+    }, {})
   }
   res.json(response)
 }
