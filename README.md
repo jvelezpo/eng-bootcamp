@@ -47,6 +47,31 @@ Over there you will be able to see and test the availables API endpoints, like i
 
 ![alt](https://lh3.googleusercontent.com/q_bK1zwH5kNYXR64TkKbB-7UakvokI9z9kUOQXXuzticIdF0Pv84XwfA5PuPaswwxI7QV2JfYovdYWyHCDTAXp8W8NaJ0DhpXrfmcwSaHJdrWGwZ3_6jTD5QkB53P-KW3_3XdTQyjCqCP_5p__wUD3jK66LTf2V5U2xPQoc-nprETUkpCXGcUnEEXbZfc8iPhkgnCmfuqw71VYiwWSvcu14ezYHaF-V8UVe6u5cFN9Js2oWGIxVM-xPmqCpS3ET-UL4-kCb8-vRpQS9Ut6pEYbtNJcgqDu7z2WUU8OihIyzwjIhjaYMiwjh_91RUjQFe71VbzOSGS_pa4HSW17SZO0Z1lWZ8HUy1Lh5SiIIzwdsRC2KX0ge2ppQBqAK6mgfXgqxzqR58zCxfaGoiHo0UaF423s-0jmjC9FfhOpxqqtX7AhBtIgFVOGavDFF5lZHTSqQMoXmdTk_6kurkxbclkVx5eFyImZHUqwn47XitZFsz1v8ayhNdZOvpX1IAMOqKNqUT6ZQznZm-Vn-2uiLuHjwJ2yMbu0G-x9vW24tWOzvHInkqrmMFoUEBGtIwZJ8f9ByqAqjIwKbhtbD-nQYjn_vlBH_ZQuaaUmALe-tl=w2312-h1906-no)
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.
+Open [http://localhost:4567/count?input=hello](http://localhost:4567/count?input=hello) to view a response in the browser.
+
+The page will reload if you make changes in the source code (thanks to nodemon which is used to run the server with this script).
+
+### `npm test`
+
+it runs the predefined test that came from auth0
+
+
+## Docker
+```bash
+$ cd ${TO_THIS_PROJECT}
+$ docker build -t auth0-test .
+$ docker run -p 4567:4567 --name sebas-auth0-test auth0-test
+```
+
+now you are able to navigate to `http://localhost:4567/count?input=hello` or `http://localhost:4567/swagger`
+
 ## License
 ### The MIT License
 

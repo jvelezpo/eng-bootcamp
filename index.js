@@ -21,7 +21,7 @@ app.get('/count', counter.getCount)
 
 // Add swagger to give the users a nice UI for the API documentation
 app.get('/swagger',(req,res) => {
-  res.sendFile(path.join(__dirname+'/public/index.html'));
+  res.sendFile(path.join(__dirname+'/public/swagger.html'));
 });
 
 app.listen(port, () => {

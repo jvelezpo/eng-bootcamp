@@ -4,7 +4,8 @@
   "description": "Exercise to be solved by Camp applicants",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "jvelezpo",
@@ -17,6 +18,7 @@
     "eslint": "^4.14.0",
     "express": "^4.16.2",
     "mocha": "^4.1.0",
+    "nodemon": "^1.14.11",
     "request-async": "^0.1.0"
   }
 }
