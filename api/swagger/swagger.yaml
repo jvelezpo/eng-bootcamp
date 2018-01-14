@@ -1,0 +1,39 @@
+swagger: "2.0"
+info:
+  description: "This is a server with a simple API for auth0 bootcamp test"
+  version: "1.0.0"
+  title: "eng-camp-exercise-auth0"
+  contact:
+    email: "sebasvelez@gmail.com"
+  license:
+    name: "The MIT License"
+    url: "https://opensource.org/licenses/MIT"
+host: "localhost:4567"
+basePath: /
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /count:
+    get:
+      tags:
+      - "count"
+      description: "Count number of times each char appears on a string"
+      operationId: "count"
+      parameters:
+      - name: input
+        in: query
+        type: string
+        description: "the string that will be returned spllited with each char in it and the number of occurences"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "object"
+            additionalProperties:
+              type: "integer"
+              format: "int32"
+   
